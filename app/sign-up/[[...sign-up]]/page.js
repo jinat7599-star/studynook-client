@@ -5,7 +5,7 @@ import { Compass, Sparkles, Wifi, ShieldCheck } from 'lucide-react';
 
 export default function SignUpPage() {
   
-  // Handled dynamic window tab registration safely within React lifecycle
+  
   useEffect(() => {
     document.title = 'StudyNook – Create Account';
   }, []);
