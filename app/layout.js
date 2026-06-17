@@ -9,7 +9,6 @@ export const metadata = {
   title: 'StudyNook – Library Study Room Booking',
   description: 'Browse and book quiet, private study rooms in your library. List your own room and earn.',
 };
-
 export default function RootLayout({ children: applicationViewNodes }) {
   return (
     <ClerkProvider>
