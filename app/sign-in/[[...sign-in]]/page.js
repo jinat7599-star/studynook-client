@@ -5,7 +5,6 @@ import { ShieldCheck, Sparkles, Compass } from 'lucide-react';
 
 export default function SignInPage() {
   
-  // Dynamic tab title assignment to isolate client execution context
   useEffect(() => {
     document.title = 'StudyNook – Secure Authentication';
   }, []);
