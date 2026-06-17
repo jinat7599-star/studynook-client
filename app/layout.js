@@ -40,7 +40,7 @@ export default function RootLayout({ children: applicationViewNodes }) {
                 },
                 success: { 
                   iconTheme: { 
-                    primary: '#059669', // Aligned seamlessly with emerald-600 palette configuration
+                    primary: '#059669', 
                     secondary: '#ffffff' 
                   } 
                 },
