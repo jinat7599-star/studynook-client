@@ -15,7 +15,7 @@ export default function RootLayout({ children: applicationViewNodes }) {
       <html lang="en" suppressHydrationWarning>
         <body className="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen flex flex-col transition-colors duration-300">
           <ThemeProvider>
-            {/* Navigation Header Block */}
+           
             <Navbar />
             
             {/* Core Application Viewport Node Wrapper */}
