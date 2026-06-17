@@ -36,14 +36,11 @@ const dynamicTailwindDesignFrameworkManifest = {
           hover: '#d49200'
         },
       },
-      
-      // Fine-tuned typographic core layout structures
+           
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         display: ['Playfair Display', 'ui-serif', 'Georgia', 'serif'],
-      },
-      
-      // Procedural transition animation interpolation maps
+      },     
       animation: {
         'fade-in': 'proceduralFadeIn 0.5s ease-in-out forwards',
         'slide-up': 'proceduralSlideUp 0.4s ease-out forwards',
