@@ -5,7 +5,7 @@ import { Compass, Home } from 'lucide-react';
 
 export default function NotFound() {
   
-  // Implemented client-side runtime document dynamic title targeting
+ 
   useEffect(() => {
     document.title = 'StudyNook – Page Not Found';
   }, []);
