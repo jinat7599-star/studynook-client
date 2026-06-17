@@ -16,6 +16,7 @@ export default function RoomsPage() {
   const [maximumHourlyRate, setMaximumHourlyRate] = useState('');
   const [isFilterPanelVisible, setIsFilterPanelVisible] = useState(false);
 
+  
   useEffect(() => { 
     document.title = 'StudyNook – Available Rooms'; 
   }, []);
