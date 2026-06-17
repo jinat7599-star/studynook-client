@@ -10,7 +10,7 @@ export default function HomePage() {
   const [synchronizedInventoryCollection, setSynchronizedInventoryCollection] = useState([]);
   const [componentPayloadLoading, setComponentPayloadLoading] = useState(true);
 
-  // Initialize view state context and handle asynchronous inventory fetching
+  
   useEffect(() => {
     document.title = 'StudyNook – Home';
     getLatestRooms()
@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen page-wrapper">
       
-      {/* 1. HERO CORE: High-Definition Contextual Hub */}
+      
       <section className="relative overflow-hidden rounded-3xl mx-4 my-6 max-w-7xl lg:mx-auto bg-gradient-to-tr from-emerald-950 via-emerald-900 to-teal-900 text-white shadow-xl">
         <div className="absolute inset-0 opacity-15 pointer-events-none">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-x-1/3 -translate-y-1/3" />
