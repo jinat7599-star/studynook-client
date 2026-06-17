@@ -13,9 +13,10 @@ const dynamicTailwindDesignFrameworkManifest = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   
+
   theme: {
     extend: {
-      // Premium institutional chromatic color map system
+      
       colors: {
         primary: {
           50:  '#edfaf4',
